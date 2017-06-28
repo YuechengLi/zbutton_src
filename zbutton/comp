@@ -1,0 +1,6 @@
+#!/bin/sh
+clear
+
+arm-xilinx-linux-gnueabi-gcc -o zButton zButton.c bmp_ops.c global_api.c
+
+exit 0
